@@ -1,5 +1,5 @@
-const client = require('./client.js')
-const { createEmployee } = require('./employees.js')
+const client = require('./client.cjs')
+const { createEmployee } = require('./employees.cjs')
 
 const dropTables = async() => {
   try {

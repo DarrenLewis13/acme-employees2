@@ -1,4 +1,4 @@
-const client = require('./client.js')
+const client = require('./client.cjs')
 
 const createEmployee = async(name, is_admin) => {
   try {
